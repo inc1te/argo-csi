@@ -1,0 +1,10 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+ name: fada-rwx-sc-im
+parameters:
+ backend: "pure_block"
+ pure_fa_pod_name: "test"
+provisioner: pxd.portworx.com
+volumeBindingMode: immediate
+allowVolumeExpansion: true

@@ -6,5 +6,5 @@ parameters:
  backend: "pure_block"
  pure_fa_pod_name: "test"
 provisioner: pxd.portworx.com
-volumeBindingMode: Immediate
+volumeBindingMode: "Immediate"
 allowVolumeExpansion: true

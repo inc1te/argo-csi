@@ -10,4 +10,4 @@ spec:
   resources:
     requests:
       storage: 20Gi
-  storageClassName: fada-rwx-sc-im
+  storageClassName: fada-rwx-sc

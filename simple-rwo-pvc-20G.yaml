@@ -2,7 +2,8 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: pure-rwo-20g
-  annotations:
+  #namespace: default
+  #annotations:
     #px/secure: "true"  # Uncomment this line to encrypt only this PVC.
 spec:
   accessModes:

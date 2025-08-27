@@ -1,0 +1,14 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: pure-rwo-10g
+  #namespace: default
+  #annotations:
+    #px/secure: "true"  # Uncomment this line to encrypt only this PVC.
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: fada-rwx-sc
